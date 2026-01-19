@@ -185,7 +185,7 @@ hr{
 .about-card{
     display: flex;
     justify-content: space-around;
-    padding-bottom: 120px;
+    padding-bottom: 50px;
 }
 .about-card h1{
     color: #00FF88;
@@ -194,4 +194,70 @@ hr{
 .about-card p{
     font-size: 1rem;
     line-height: 20px;
+}
+
+#choose-section{
+    width: 100%;
+    background-color: #230E3D;
+    color: #FFFFFF;
+}
+
+.choose-container{
+    max-width: 75%;
+    margin: 0px auto;
+}
+.choice-title{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.grid-section{
+    display: grid;
+    grid-template-columns: repeat(3,320px);
+    grid-template-rows: repeat(7,70px);
+    gap:10px;
+    
+    
+}
+
+.sec-1, .sec-2 , .sec-3, .sec-4 ,  .sec-5{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 20px;  
+}
+.sec-1 h5, .sec-2 h5, .sec-3 h5, .sec-4 h5, .sec-5 h5{
+   font-size: 1.2rem;   
+   padding-top: 10px;
+   font-weight: bold;
+}
+.sec-1 p, .sec-2 p, .sec-3 p, .sec-4 p, .sec-5 p{
+   font-size: 1rem;   
+   padding-top: 5px;
+   line-height: 20px;
+}
+.sec-1 img, .sec-2 img, .sec-3 img, .sec-4 img, .sec-5 img{
+   width: 40px;
+}
+
+.sec-1{
+    grid-row: span 4;
+     padding: 40px  20px; 
+    
+}
+.sec-2 , .sec-3{
+    grid-row: span 2;
+    grid-column: span 2;
+     padding: 15px  20px; 
+}
+.sec-4{
+    grid-column: span 2;
+    grid-row: span 3;
+     padding: 40px  20px; 
+}
+.sec-5{
+    grid-column: span 1;
+    grid-row: span 3;
+     padding: 40px  20px; 
 }
