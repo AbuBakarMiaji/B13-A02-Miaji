@@ -151,3 +151,47 @@ nav h2{
     background: none;
     cursor: pointer;
 }
+
+#about{
+    width: 100%;
+    background-color: #1A0B2E;
+    padding-top: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.about-container{
+    max-width: 75%;
+    margin: 0px auto;
+}
+.about-text h2{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 16px;
+    padding-top: 20px;
+
+}
+.about-text p{
+    font-size: 0.8rem;
+    line-height: 20px;
+    width: 70%;
+    margin: 0px auto;
+}
+
+hr{
+    border-color: #FFFFFF;
+    width: 90%;
+    margin: 50px auto;
+}
+.about-card{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 120px;
+}
+.about-card h1{
+    color: #00FF88;
+    font-size: 3rem;
+}
+.about-card p{
+    font-size: 1rem;
+    line-height: 20px;
+}
