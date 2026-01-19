@@ -68,24 +68,86 @@ nav h2{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    padding-top: 100px;
+    padding-top: 70px;
     text-align: center;
+    height: 100vh;
 }
 
 .banner-container{
     width: 550px;
     margin: 0px auto;
-    border: 1px solid red;
+    
 }
 
 .bg-center-img{
+   width: 350px;
+   position: relative;
+   margin: 0px auto;
+}
+.new-button{
+    position: absolute;
+    width: 75px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1A0B2E;
+    padding: 8px 16px;
+    background-color: #00FF88;
+    box-shadow: 0px 3px 27px rgba(0, 255, 136, 0.5);
+    border-radius: 106px;
+    left: 60%;
+}
+.img-1{
+    width: 100%; 
+   
+}
+.img-2{
+   position: absolute;
+   top: 25%;
+   left: 35%;
+}
+
+#banner h2{
+    font-size: 3.75rem;
+    font-weight: 800;
+    padding-top: 40px;
+}
+#banner p{
+    font-size: 1rem;
+   
+}
+.hero-button{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.spotify-button{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    gap: 10px;
+    background: linear-gradient(to right top, #F7E93F, #FB09B4, #9100F8);
+    cursor: pointer;
 }
-.img-1{
-    margin:0px auto ;
-}
-.img-2{
-    margin: -50%;
+
+.sbsc-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00FF88;
+    padding: 12px 20px;
+    border: 1px solid #00FF88;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    gap: 10px;
+    background: none;
+    cursor: pointer;
 }
