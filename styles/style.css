@@ -49,6 +49,9 @@ nav h2{
     color: #FFFFFF;
     font-size: 1rem;
  }
+ nav ul li a:hover{
+   color: #aa83de;
+ }
 
 .subscribe-button{
     background: linear-gradient(to right top, #F7E93F, #FB09B4, #9100F8);
@@ -389,4 +392,113 @@ footer{
 .single-icon{
     display: flex;
     gap: 10px;
+}
+
+.menu-show{
+    display: none;
+}
+
+.hide{
+    display: none !important;
+}
+
+@media screen and (max-width:576px) {
+    .menu-hide{
+        display:none;
+    }
+    .menu-show {display: block;}
+
+    nav{
+        max-width: 95%;
+    }
+
+    .banner-container{
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .img-1{
+         width: 80%; 
+    }
+
+    #banner h2{
+        padding-top: 20px;
+    }
+
+    #about{
+        padding-top: 30px;
+    }
+    .about-container{
+        max-width: 95%;
+    }
+
+    .about-text h2{
+        font-size:2.5rem ;
+        width: 85%;
+        margin: 60px auto 0px;
+
+    }
+    .about-text p{
+        width: 95%;
+        margin: 0px auto;
+    }
+
+    .about-card{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2,50%);
+        grid-template-rows: repeat(2,50%);
+    }
+
+    .choose-container{
+        max-width: 95%;
+        margin: 0px auto;
+        align-items: center;
+    }
+
+    .choice-title{
+        padding-top: 30px;
+        font-size: 1.2rem;
+
+    }
+    .grid-section{
+        display: grid;
+        grid-template-columns: repeat(1,90%);
+        margin: 0px auto;
+        gap:10px;
+        justify-content:center ;
+    }
+    .sec-1, .sec-2 , .sec-3, .sec-4 ,  .sec-5{
+
+        grid-row: span 4;
+        grid-column: span 1;
+        padding: 40px  20px; 
+    }
+
+    .feature-container{
+        max-width: 95%;
+    }
+
+    .video-cards{
+        display: grid;
+        grid-template-columns: repeat(1,95%);
+        gap: 20px;
+        justify-content:center ;
+    }
+
+    .host-container{
+        max-width: 90%;
+    }
+    .host-card{
+        flex-direction: column;
+        text-align: center;
+    }
+    .icon{
+        justify-content: center;
+    }
+    .footer-icon{
+        flex-wrap: wrap;
+
+    }
+
 }
