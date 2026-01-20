@@ -359,3 +359,28 @@ hr{
     width: 30px;
     padding: 5px;
 }
+footer{
+    background-image: url("../assets/footer-bg.png");
+    background-repeat: no-repeat;
+    background-color:rgb(32, 17, 67);
+    background-size: 100%;
+    background-position: 100%;
+    text-align: center;
+    padding: 50px;
+    color: #FFFFFF;
+    width: 100%;  
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 75%;
+    margin: 28px auto;
+    /* border: 1px solid red; */
+}
+
+.single-icon{
+    display: flex;
+    gap: 10px;
+}
